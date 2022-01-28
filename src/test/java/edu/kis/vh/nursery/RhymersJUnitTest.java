@@ -3,6 +3,10 @@ package edu.kis.vh.nursery;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Skrót Alt+strzałki lewo/prawo - przenosi do poprzedniego/następnego
+ * edytowanego pliku, zachowując pozycję kursora.
+ */
 public class RhymersJUnitTest {
 
 	@Test
