@@ -1,9 +1,9 @@
 package edu.kis.vh.nursery.list;
 
-public class IntLinkedList {
+public class IntLinkedList { // TODO: check, class not used.
 
-	Node last;
-	int i;
+	private Node last;
+	//int i; // TODO: check, not used.
 
 	public void push(int i) {
 		if (last == null)
