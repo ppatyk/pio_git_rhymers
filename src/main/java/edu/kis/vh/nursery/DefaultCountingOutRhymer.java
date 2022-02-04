@@ -7,8 +7,7 @@ public class DefaultCountingOutRhymer {
 
 	private final int[] numbers = new int[TABLE_SIZE];
 
-	public int total = EMPTY_ID;
-
+	private int total = EMPTY_ID;
 
 	public void countIn(int in) {
 		if (!isFull())
@@ -17,6 +16,10 @@ public class DefaultCountingOutRhymer {
 
 	public boolean callCheck() {
 		return total == EMPTY_ID;
+	}
+
+	public int getTotal() {
+		return total;
 	}
 
 	public boolean isFull() {
