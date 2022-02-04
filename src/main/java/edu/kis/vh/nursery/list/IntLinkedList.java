@@ -2,6 +2,8 @@ package edu.kis.vh.nursery.list;
 
 public class IntLinkedList { // TODO: check, class not used.
 
+	private static final int ERROR_CODE = -1;
+
 	private Node last;
 	//int i; // TODO: check, not used.
 
@@ -25,13 +27,13 @@ public class IntLinkedList { // TODO: check, class not used.
 
 	public int top() {
 		if (isEmpty())
-			return -1;
+			return ERROR_CODE;
 		return last.getValue();
 	}
 
 	public int pop() {
 		if (isEmpty())
-			return -1;
+			return ERROR_CODE;
 		int ret = last.getValue();
 		last = last.getPrev();
 		return ret;

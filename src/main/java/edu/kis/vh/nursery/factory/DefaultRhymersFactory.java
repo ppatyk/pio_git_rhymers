@@ -5,7 +5,7 @@ import edu.kis.vh.nursery.FIFORhymer;
 import edu.kis.vh.nursery.HanoiRhymer;
 import edu.kis.vh.nursery.factory.RhymersFactory;
 
-public class DefaultRhymersFactory implements RhymersFactory {
+public final class DefaultRhymersFactory implements RhymersFactory {
 
 	@Override
 	public DefaultCountingOutRhymer getStandardRhymer() {
